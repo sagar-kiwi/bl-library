@@ -1,0 +1,169 @@
+.sbHolder{
+	background-color: #e6e6e6;
+	border: solid 2px #d0d0d0;
+	border-radius: 6px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-weight: normal;
+	height: 27px;
+	margin-top: 2px;
+	position: relative;
+	width: 81px;
+	-webkit-box-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+}
+.sbSelector{
+	display: block;
+	height: 27px;
+	left: 0;
+	line-height: 27px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 5px;
+	top: 0;
+	width: 56px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #4a4a4a;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	background: url(../img/arrowDown.png) 0 0px no-repeat;
+	background-size: 110%;
+	display: block;
+	height: 30px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 25px;
+}
+.sbToggleOpen{
+	background: url(../img/arrowDown.png) 0 0px no-repeat;
+	background-size: 110%;
+}
+.sbHolderDisabled{
+	/*background-color: #3C3C3C;
+	border: solid 1px #515151;*/
+	opacity: 0.4;
+}
+.sbOptions{
+	background-color: #e6e6e6;
+	border: solid 1px #d0d0d0;
+	/*border-radius: 6px;*/
+	list-style: none;
+	left: -1px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 28px;
+	width: 81px;
+	z-index: 1;
+	overflow-y: auto;
+}
+.sbOptions li{
+	padding: 0 5px;
+}
+.sbOptions a{
+	border-bottom: solid 1px #d0d0d0;
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #4a4a4a;
+	text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #4a4a4a;
+}
+.sbOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled{
+	/*border-bottom: solid 1px #d0d0d0;*/
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+	border-bottom: solid 1px #d0d0d0;
+	color: #EBB52D;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+	padding-left: 17px;
+}
+@media only screen and (min-width : 320px) and (max-width : 340px) {
+	.sbHolder{
+		width: 70px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.sbSelector{
+		width: 46px;
+	}
+	.sbToggle{
+		width: 25px;
+	}
+	.sbOptions{
+		width: 74px;
+	}
+	.emailDropDown .sbHolder{
+		width: 70px;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left !important;
+	}
+	.emailDropDown .sbSelector{
+		width: 46px;
+	}
+	.emailDropDown .sbToggle{
+		width: 25px;
+	}
+	.emailDropDown .sbOptions{
+		width: 70px;
+		text-align: left !important;
+	}
+}
+@media only screen and (min-width : 340px) and (max-width : 1500px) {
+	.sbHolder{
+		width: 125px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.sbSelector{
+		width: 100px;
+	}
+	.sbToggle{
+		width: 25px;
+	}
+	.sbOptions{
+		width: 125px;
+	}
+	.emailDropDown .sbHolder{
+		width: 101px;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left !important;
+	}
+	.emailDropDown .sbSelector{
+		width: 76px;
+	}
+	.emailDropDown .sbToggle{
+		width: 25px;
+	}
+	.emailDropDown .sbOptions{
+		width: 101px;
+		text-align: left !important;
+	}
+}

@@ -1,0 +1,506 @@
+html {
+    font-size: 100%;
+    height: 100%;
+}
+body {
+    color: #fff;
+    height: 100%;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+div {
+    display: block;
+    float: left;
+    width: 100%;
+}
+#footer {
+    border-top: 1px solid #d0d0d0;
+    display: block;
+    float: left;
+    height: 49px !important;
+    margin-top: 5px;
+    position: relative;
+    width: 100%;
+    z-index: 999999;
+}
+.btnPrevious {
+    background: url(../img/spriteToolbar.png) no-repeat;
+    background-position: 0px 10px;
+    background-size: 850%;
+    height: 49px;
+    left: 25%;
+    position: relative;
+    width: 12px;
+}
+.btnNext {
+    background: url(../img/spriteToolbar.png) no-repeat;
+    background-position: -21px 10px;
+    background-size: 850%;
+    height: 49px;
+    left: 20%;
+    position: relative;
+    width: 12px;
+}
+.btnHome {
+    background: url(../img/spriteToolbar.png) no-repeat;
+    background-position: -44px 10px;
+    background-size: 350%;
+    height: 49px;
+    left: 5%;
+    position: relative;
+    width: 32px;
+}
+#header {
+    background-color: #e5e5e5;
+    border-top: 1px solid #f9f9f9;
+    color: #666;
+    display: block;
+    font-family: sans-serif;
+    font-size: 17pt;
+    height: 33px;
+    left: 0px;
+    padding: 5px 0px;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+#subheader {
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #d0d0d0;
+    display: block;
+    font-family: sans-serif;
+    height: 33px;
+    left: 0px;
+    padding: 5px 0px;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+@media (device-width: 320px) and (device-height: 568px) {
+    .btn_del {
+        padding: 4px 3px !important;
+    }
+    .contentMore {
+        height: 82% !important;
+    }
+    .content {
+        float: left;
+        height: 91%;
+        left: 0px;
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+     #subheader {
+        background-color: #e6e6e6;
+        border-bottom: 1px solid #d0d0d0;
+        display: block;
+        font-family: sans-serif;
+        height: 33px;
+        left: 0px;
+        padding: 5px 0px;
+        position: relative;
+        text-align: center;
+        top: 0px;
+        width: 100%;
+        z-index: 999;
+    }
+    .doneBtn {
+        display: inline-block;
+        left: -4.5%;
+        min-width: 50px;
+        position: relative;
+        width: 5%;
+    }
+    .headertext {
+        left: -5px;
+        position: relative;
+        top: 5px;
+        width: 20%;
+    }
+    .content ul li {
+        background-image: url(../img/pdfNev.png);
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 4%;
+        border-bottom: 1px solid #eee;
+        color: #c10101;
+        height: 54px;
+        height: auto;
+        z-index: 9;
+    }
+    .btnsavePdf {
+        background: url(../img/spriteToolbar.png) no-repeat;
+        background-position: -77px 8px;
+        background-size: 370%;
+        height: 49px;
+        left: 43%;
+        position: relative;
+        width: 28px;
+    }
+    .pdfTitle {
+        font-size: 12pt;
+        line-height: 21px;
+        margin: 0px 5px 0px 10px;
+        padding-top: 10px;
+    }
+    .pdfAuthor {
+        color: #333333;
+        font-size: 9pt;
+        line-height: 18px;
+        margin: 3px 5px 0px 10px;
+    }
+    .pdfSnippts {
+        color: #777777;
+        font-size: 9pt;
+        height: 35px;
+        line-height: 18px;
+        margin: 0px 5px 0px 10px;
+        white-space: pre-line !important;
+    }
+    .pdfDate {
+        color: #000;
+        font-size: 9pt;
+        line-height: 20px;
+        margin: 0px 5px 10px 10px;
+    }
+    .content ul li span {
+        margin-left: 13%;
+    }
+    .radioBtn {
+        background-position: center center;
+        background-size: 60%;
+        height: 100%;
+        min-height: 59px;
+        min-width: 13%;
+        position: absolute;
+        width: 13%;
+        z-index: 99;
+    }
+    .noContent {
+        padding: 60% 0%;
+    }
+}
+@media (device-width: 320px) and (device-height: 480px) {
+    .btn_del {
+        padding: 4px 3px !important;
+    }
+    .contentMore {
+        height: 78% !important;
+    }
+    .content {
+        float: left;
+        left: 0px;
+        height: 89%;
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    #subheader {
+        background-color: #e6e6e6;
+        border-bottom: 1px solid #d0d0d0;
+        display: block;
+        font-family: sans-serif;
+        height: 33px;
+        left: 0px;
+        padding: 5px 0px;
+        position: relative;
+        text-align: center;
+        top: 0px;
+        width: 100%;
+        z-index: 999;
+    }
+    .doneBtn {
+        display: inline-block;
+        left: -4.5%;
+        min-width: 50px;
+        position: relative;
+        width: 5%;
+    }
+    .headertext {
+        left: -5px;
+        position: relative;
+        top: 5px;
+        width: 20%;
+    }
+    .content ul li {
+        background-image: url(../img/pdfNev.png);
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 4%;
+        border-bottom: 1px solid #eee;
+        color: #c10101;
+        height: 54px;
+        height: auto;
+        z-index: 9;
+    }
+    .btnsavePdf {
+        background: url(../img/spriteToolbar.png) no-repeat;
+        background-position: -77px 8px;
+        background-size: 370%;
+        height: 49px;
+        left: 43%;
+        position: relative;
+        width: 28px;
+    }
+    .pdfTitle {
+        font-size: 12pt;
+        line-height: 21px;
+        margin: 0px 5px 0px 10px;
+        padding-top: 10px;
+    }
+    .pdfAuthor {
+        color: #333333;
+        font-size: 9pt;
+        line-height: 18px;
+        margin: 3px 5px 0px 10px;
+    }
+    .pdfSnippts {
+        color: #777777;
+        font-size: 9pt;
+        height: 35px;
+        line-height: 18px;
+        margin: 0px 5px 0px 10px;
+        white-space: pre-line !important;
+    }
+    .pdfDate {
+        color: #000;
+        font-size: 9pt;
+        line-height: 20px;
+        margin: 0px 5px 10px 10px;
+    }
+    .content ul li span {
+        margin-left: 13%;
+    }
+    .radioBtn {
+        background-position: center center;
+        background-size: 60%;
+        height: 100%;
+        min-height: 59px;
+        min-width: 13%;
+        position: absolute;
+        width: 13%;
+        z-index: 99;
+    }
+    .noContent {
+        padding: 50% 0%;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .blankSpan {
+        display: inline-block;
+        width: 41.9%;
+        height: 40px;
+        float: right;
+        margin-left: 7px;
+    }
+    .selBtnSpace {
+        margin-left: 5px;
+    }
+    .srtReg {
+        margin-left: 10px;
+    }
+    .emailDropDown {
+        margin-right: 10px;
+    }
+    .btn_del {
+        padding: 4px 7px !important;
+    }
+    .doneBtn {
+        display: inline-block;
+        left: 0%;
+        min-width: 50px;
+        position: relative;
+        width: 20%;
+    }
+    .headertext {
+        position: relative;
+        top: 5px;
+        width: 50%;
+    }
+    .content {
+        float: left;
+        height: 95.3%;
+        left: 0px;
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    .contentMore {
+        height: 90.5%  !important;
+    }
+    .content ul li span {
+        margin-left: 8%;
+    }
+    .radioBtn {
+        background-position: center center;
+        background-size: 45%;
+        height: 100%;
+        min-height: 59px;
+        position: absolute;
+        width: 8%;
+    }
+    .content ul li {
+        background-image: url(../img/pdfNev.png);
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 2.0%;
+        border-bottom: 1px solid #eee;
+        color: #c10101;
+        height: auto;
+        max-height: 139px;
+        min-height: 59px;
+    }
+    .btnsavePdf {
+        background: url(../img/spriteToolbar.png) no-repeat;
+        background-position: -77px 9px !important;
+        background-size: 370%;
+        height: 49px;
+        left: 50% !important;
+        position: relative;
+        width: 28px;
+    }
+    #header {
+        font-size: 18pt;
+    }
+    .pdfTitle {
+        font-size: 14pt;
+        line-height: 25px;
+        margin: 0px 5px 0px 10px;
+        padding-top: 5px;
+    }
+    .pdfSnippts {
+        color: #777777;
+        font-size: 10pt;
+        line-height: 18px;
+        margin: 0px 5px 0px 10px;
+        max-height: 35px;
+        white-space: pre-line !important;
+    }
+    .pdfAuthor {
+        color: #333333;
+        font-size: 10pt;
+        line-height: 18px;
+        margin: 3px 5px 0px 10px;
+    }
+    .pdfDate {
+        color: #000;
+        font-size: 10pt;
+        line-height: 20px;
+        margin: 0px 5px 10px 10px;
+    }
+    .btnPrevious {
+        background: url(../img/spriteToolbar.png) no-repeat;
+        background-position: 0px 10px;
+        background-size: 850%;
+        height: 49px;
+        left: 30%;
+        position: relative;
+        width: 12px;
+    }
+    .btnNext {
+        background: url(../img/spriteToolbar.png) no-repeat;
+        background-position: -21px 10px;
+        background-size: 850%;
+        height: 49px;
+        left: 15%;
+        position: relative;
+        width: 12px;
+    }
+    .btnHome {
+        background: url(../img/spriteToolbar.png) no-repeat;
+        background-position: -44px 10px;
+        background-size: 350%;
+        height: 49px;
+        left: 5%;
+        position: relative;
+        width: 32px;
+    }
+    .noContent {
+        padding: 50% 0%;
+    }
+}
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .blankSpan {
+        width: 56.4%;
+    }
+    .content ul li span {
+        margin-left: 6.5%;
+    }
+    .content {
+        height: 93.6%;
+    }
+    .contentMore {
+        height: 87% !important;
+    }
+    .radioBtn {
+        background-position: center center;
+        background-size: 42%;
+        min-height: 59px;
+        position: absolute;
+        width: 6.5%;
+        z-index: 9;
+    }
+    .content ul li {
+        background-image: url(../img/pdfNev.png);
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 1.7%;
+        border-bottom: 1px solid #eee;
+        color: #c10101;
+        height: auto;
+        max-height: 139px;
+        min-height: 59px;
+        position: relative;
+        z-index: 1;
+    }
+    .noContent {
+        padding: 30% 0%;
+    }
+}
+.scroller {
+    float: left;
+    padding: 0;
+    position: relative;
+    -webkit-touch-callout: none;
+}
+#articleScroll {
+    bottom: 0%;
+    max-height: 100%;
+    top: 0%;
+    width: 100%;
+}
+ul li {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+.pdfList {
+    background: #fafafa;
+    float: left;
+    width: 100%;
+}
+.btnsavePdf {
+    background: url(../img/spriteToolbar.png) no-repeat;
+    background-position: -77px 8px;
+    background-size: 370%;
+    height: 49px;
+    left: 43%;
+    position: relative;
+    width: 28px;
+}
+
+.active {
+    background-color: #c10101;
+    background-image: url(../img/pdfNev_white.png) !important;
+    color: #FFF;
+}
+.activeSpan {
+    color: #FFF;
+}

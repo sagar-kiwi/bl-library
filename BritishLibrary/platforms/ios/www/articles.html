@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, width=device-width" />
+
+        <link rel="stylesheet" type="text/css" href="css/selectbox-0.2.css">
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style_iphone.css" />
+        <title>My PDF List</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jQuery-1.8.3.js"></script>
+        <!-- <script type="text/javascript" src="js/SpringerPlugin.js"></script>-->
+        <script type="text/javascript" src="js/iscroll.js"></script>
+        <script type="text/javascript" src="js/selectbox-0.2.js"></script>
+        <script type="text/javascript" src="js/function.js"></script>
+    </head>
+    
+    <body>
+        <div id="header" class="grdHeader pdfHead">
+            <span class="doneBtn floatleft"></span>
+            <span class="headertext">My Saved Articles</span>
+            <span class="doneBtn floatRight textRight mRight15 ">
+                <button id="editDoneBtn" class="btn btn_done deActive" disabled=true>Edit</button>
+            </span>
+        </div>
+        
+        <div id="subheader" class="headShadow pdfHead" style="display:none">
+            <span class="fifty textleft mLeft15">
+                <span class="selBtnSpace">
+                    <button id="selectDeselectBtn" class="btn btn_desAll">Select All</button>
+                </span>
+                
+                <span class="srtReg">
+                    <select id="sortArticleDropdown" class="dropdown" name="sort" tabindex="1" sb="55920535" style="display: none;">
+                        <option name="sort" value="" disabled=true>-Sort By-</option>
+                        <option name="sort" value="article_title">Title</option>
+                        <option name="sort" value="oldest_first">Date (Oldest)</option>
+                        <option name="sort" value="most_recent_first">Date (Recent)</option>
+                    </select>
+                </span>
+                <span class="blankSpan"></span>
+            </span>
+            <span class="forty textRight mRight15">
+                <span class="deleteBtn">
+                    <button id="deleteBtn" class="btn btn_del mLeft15 deActive" disabled=true>Delete</button>
+                </span>
+                <span class="blankSpan"></span>
+            </span>
+        </div>
+
+        <div class="content">
+            <div class="noContent" style="display:none">
+                <span>No Article Found</span>
+            </div>
+            
+            <div id="articleScroll">
+                <div class="scroller">
+                    <ul class="pdfList"></ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
